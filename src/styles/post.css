@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --link-blue: #0095F6;
+}
+
+.post-card {
+    width: 80vw;
+    margin-bottom: 5%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.abstract {
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.read-link {
+    margin: 1% 0;
+    font-size: 0.85rem;
+}
+
+.title a,
+.read-link a {
+    text-decoration: inherit;
+    color: inherit;
+}
+.title a:hover,
+.read-link a:hover {
+    color: gray;
+}
+
+.read-link a {
+    color: var(--link-blue);
+}
+
+
+
+@media (min-aspect-ratio: 1/1) {
+    .post-card {
+        width: 800px;
+    }
+}
