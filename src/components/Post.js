@@ -13,7 +13,7 @@ export default function Post(props) {
             </div>
             <div className="read-link">
                 <a href={props.link} target="_blank" rel="noreferrer">
-                    Read More &gt;&gt;
+                    Read More &gt;
                 </a>
             </div>
         </div>
